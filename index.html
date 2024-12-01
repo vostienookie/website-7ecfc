@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning Management System</title>
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #008000; /* Green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section-title{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  margin-bottom: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 15vh;
+  background-color: #008000; /* Green */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+  section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  section:last-child {
+    margin-right: 0;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Learning Management System</h1>
+</header>
+
+<div class="container">
+  <section>
+    <h2 class="section-title">Connecting Students and Educators</h2>
+    <p>Our Learning Management System (LMS) provides a robust and intuitive platform designed to facilitate seamless communication and collaboration between students and educators.  We bridge the gap between traditional learning environments and the digital age, offering a comprehensive suite of tools to enhance the educational experience.</p>
+  </section>
+  <section>
+    <h2 class="section-title">Key Features</h2>
+    <ul class="feature-list">
+      <li><strong>Interactive Courses:</strong> Engaging multimedia content to enhance learning.</li>
+      <li><strong>Communication Tools:</strong> Integrated messaging and forum for easy interaction.</li>
+      <li><strong>Progress Tracking:</strong> Real-time monitoring of student performance.</li>
+      <li><strong>Assignment Management:</strong> Streamlined submission and grading system.</li>
+      <li><strong>Resource Library:</strong> Centralized access to essential learning materials.</li>
+    </ul>
+  </section>
+  <section>
+    <h2 class="section-title">About Us</h2>
+    <p>We are dedicated to providing a user-friendly and effective LMS that empowers educators and supports student success. Our platform is constantly evolving to meet the changing needs of the educational landscape.</p>
+    <img src="https://res.cloudinary.com/dseiakb3q/image/upload/v1733069125/pzma7q7m7br98mmdsbrl.jpg" alt="LMS Image">
+  </section>
+</div>
+
+<footer>
+  <p>Contact: 0717695812 Kelvin, Nairobi <a href="mailto:yourmail@example.com">Contact Us</a></p>
+</footer>
+
+</body>
+</html>
